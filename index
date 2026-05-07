@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSU Survival Guide 2025 - คู่มือเอาตัวรอดฉบับข้อบังคับ ๒๕๖๘</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Kanit', sans-serif; scroll-behavior: smooth; }
+        .psu-blue { background-color: #003366; }
+        .psu-gold { color: #FFCC00; }
+        .card-shadow { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .step-active { border-color: #003366; color: #003366; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="psu-blue text-white sticky top-0 z-50 p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold flex items-center">
+                <i class="fas fa-graduation-cap mr-2"></i> PSU Guide 2025
+            </h1>
+            <div class="hidden md:flex space-x-6">
+                <a href="#roadmap" class="hover:text-yellow-400">เส้นทางเรียน</a>
+                <a href="#calculator" class="hover:text-yellow-400">เช็คเกรด</a>
+                <a href="#honors" class="hover:text-yellow-400">เกียรตินิยม</a>
+                <a href="#rules" class="hover:text-yellow-400">ข้อบังคับ</a>
+            </div>
+            <button class="md:hidden" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden flex flex-col space-y-2 mt-4 pb-2">
+            <a href="#roadmap" class="p-2 hover:bg-blue-800">เส้นทางเรียน</a>
+            <a href="#calculator" class="p-2 hover:bg-blue-800">เช็คเกรด</a>
+            <a href="#honors" class="p-2 hover:bg-blue-800">เกียรตินิยม</a>
+            <a href="#rules" class="p-2 hover:bg-blue-800">ข้อบังคับ</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="psu-blue text-white py-16 px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">เรียนยังไงไม่ให้โดนรีไทร์?</h2>
+        <p class="text-lg opacity-90 max-w-2xl mx-auto">สรุปข้อบังคับ ม.สงขลานครินทร์ ๒๕๖๘ ฉบับเข้าใจง่ายสำหรับนักศึกษาใหม่</p>
+        <div class="mt-8">
+            <a href="#calculator" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-full transition-all">
+                เช็คสถานภาพตอนนี้ <i class="fas fa-calculator ml-2"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Interactive Roadmap -->
+    <section id="roadmap" class="py-16 container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold">เส้นทางการศึกษา (Academic Roadmap)</h3>
+            <p class="text-gray-600">วันสำคัญที่ห้ามลืมตามข้อบังคับ</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="bg-white p-6 rounded-2xl card-shadow border-t-4 border-blue-500">
+                <div class="text-blue-500 text-2xl font-bold mb-2">7 วันแรก</div>
+                <h4 class="font-bold mb-2">ลงทะเบียนเรียน</h4>
+                <p class="text-sm text-gray-600">ต้องลงทะเบียนให้เสร็จภายใน 7 วันของเทอมปกติ มิฉะนั้นต้องเสียค่าปรับ (ข้อ ๑๑)</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl card-shadow border-t-4 border-green-500">
+                <div class="text-green-500 text-2xl font-bold mb-2">14 วันแรก</div>
+                <h4 class="font-bold mb-2">ถอนแบบ No W</h4>
+                <p class="text-sm text-gray-600">ถอนรายวิชาในช่วงนี้ จะไม่ปรากฏในใบ Transcript (ข้อ ๑๓-๑)</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl card-shadow border-t-4 border-yellow-500">
+                <div class="text-yellow-500 text-2xl font-bold mb-2">สัปดาห์ที่ 12</div>
+                <h4 class="font-bold mb-2">เส้นตายติด W</h4>
+                <p class="text-sm text-gray-600">ถอนได้จนถึงสัปดาห์ที่ 12 แต่จะปรากฏสัญลักษณ์ W ในใบเกรด (ข้อ ๑๓-๒)</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl card-shadow border-t-4 border-red-500">
+                <div class="text-red-500 text-2xl font-bold mb-2">วันสอบ</div>
+                <h4 class="font-bold mb-2">ห้ามทุจริต!</h4>
+                <p class="text-sm text-gray-600">ทุจริตสอบ ปรับตก (E หรือ F) ทันทีในรายวิชานั้น (ข้อ ๓๕)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GPAX Simulator -->
+    <section id="calculator" class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-3xl card-shadow">
+                <h3 class="text-2xl font-bold mb-6 text-center text-blue-900">
+                    <i class="fas fa-heartbeat mr-2"></i> เครื่องมือเช็คสถานภาพ (Survival Calc)
+                </h3>
+                
+                <div class="space-y-6">
+                    <div>
+                        <label class="block mb-2 font-semibold">คุณเป็นนักศึกษาชั้นปีที่เท่าไหร่?</label>
+                        <select id="year-select" class="w-full p-3 border rounded-xl bg-gray-50 focus:ring-2 focus:ring-blue-500 outline-none">
+                            <option value="1-1">ปี 1 เทอม 1 (พึ่งเข้าเรียน)</option>
+                            <option value="1-2">ปี 1 เทอม 2 (เรียนจบ 1 เทอมแล้ว)</option>
+                            <option value="2-up">ปี 2 ขึ้นไป</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block mb-2 font-semibold">GPAX (เกรดเฉลี่ยสะสม) ของคุณ:</label>
+                        <input type="number" id="gpax-input" placeholder="เช่น 1.95" step="0.01" min="0" max="4" 
+                               class="w-full p-3 border rounded-xl bg-gray-50 focus:ring-2 focus:ring-blue-500 outline-none">
+                    </div>
+
+                    <button onclick="calculateStatus()" class="w-full bg-blue-900 text-white font-bold py-4 rounded-xl hover:bg-blue-800 transition-colors">
+                        วิเคราะห์สถานะ <i class="fas fa-search ml-2"></i>
+                    </button>
+
+                    <div id="result-box" class="hidden p-6 rounded-xl text-center animate-pulse border-2">
+                        <h4 id="result-title" class="text-xl font-bold mb-2"></h4>
+                        <p id="result-desc" class="text-sm"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Honors Checklist -->
+    <section id="honors" class="py-16 container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold">"Honor Hunter" เช็คสิทธิเกียรตินิยม</h3>
+            <p class="text-gray-600">คุณยังมีสิทธิได้เกียรตินิยมอยู่หรือไม่? (ข้อ ๔๕)</p>
+        </div>
+
+        <div class="max-w-2xl mx-auto space-y-4">
+            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border-l-4 border-orange-400">
+                <input type="checkbox" id="h1" class="w-6 h-6 mr-4 cursor-pointer">
+                <label for="h1" class="cursor-pointer">ไม่เคยได้เกรดต่ำกว่า 2.00 (หรือ E, F, U) ในรายวิชาใดๆ</label>
+            </div>
+            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border-l-4 border-orange-400">
+                <input type="checkbox" id="h2" class="w-6 h-6 mr-4 cursor-pointer">
+                <label for="h2" class="cursor-pointer">ใช้เวลาเรียนไม่เกินแผนการศึกษา (ปกติคือ 4 ปี)</label>
+            </div>
+            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border-l-4 border-orange-400">
+                <input type="checkbox" id="h3" class="w-6 h-6 mr-4 cursor-pointer">
+                <label for="h3" class="cursor-pointer">ไม่เคยถูกลงโทษวินัยระดับ "พักการเรียน" ขึ้นไป</label>
+            </div>
+            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border-l-4 border-orange-400">
+                <input type="checkbox" id="h4" class="w-6 h-6 mr-4 cursor-pointer">
+                <label for="h4" class="cursor-pointer">เรียนใน PSU ไม่น้อยกว่าร้อยละ 65 ของหน่วยกิตรวม</label>
+            </div>
+            <div class="mt-6 p-4 bg-orange-100 text-orange-800 rounded-xl text-sm">
+                * หากติ๊กครบทุกข้อ และ GPAX ถึง 3.50 มีลุ้น <b>เกียรตินิยมอันดับ 1</b> 
+                (GPAX 3.25 มีลุ้น <b>อันดับ 2</b>)
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Rules -->
+    <section id="rules" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm">
+                <h3 class="text-xl font-bold mb-4 border-b-2 border-blue-500 pb-2">ระบบธนาคารหน่วยกิต (Credit Bank)</h3>
+                <ul class="space-y-3 text-gray-700">
+                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> สะสมหน่วยกิตได้ไม่จำกัดระยะเวลา</li>
+                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> นำประสบการณ์ทำงานมาเทียบโอนได้ (CP)</li>
+                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> เทียบโอนจากการฝึกอบรมภายนอกได้ (CT)</li>
+                    <li><i class="fas fa-info-circle text-blue-500 mr-2 text-sm"></i> เหมาะสำหรับการเรียนรู้ตลอดชีวิต (ข้อ ๑๓-๒๒ ฉบับตลอดชีวิต)</li>
+                </ul>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm">
+                <h3 class="text-xl font-bold mb-4 border-b-2 border-red-500 pb-2">เกณฑ์การพ้นสภาพ (Retire)</h3>
+                <ul class="space-y-3 text-gray-700">
+                    <li><i class="fas fa-exclamation-triangle text-red-500 mr-2"></i> ปี 1 เทอม 1 : GPAX ต่ำกว่า 1.00</li>
+                    <li><i class="fas fa-exclamation-triangle text-red-500 mr-2"></i> ปี 1 เทอม 2 : GPAX ต่ำกว่า 1.25</li>
+                    <li><i class="fas fa-exclamation-triangle text-red-500 mr-2"></i> ปีอื่นๆ : ต่ำกว่า 1.50</li>
+                    <li><i class="fas fa-exclamation-triangle text-red-500 mr-2"></i> ระบบรอพินิจ : ต่ำกว่า 2.00 ติดต่อกัน 3 ครั้ง (ข้อ ๓๙)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="psu-blue text-white py-12 px-4 text-center">
+        <p class="mb-4">มหาวิทยาลัยสงขลานครินทร์ - Our Soul is for the Benefit of Mankind</p>
+        <div class="flex justify-center space-x-6 text-2xl mb-8">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-line"></i></a>
+            <a href="#"><i class="fas fa-globe"></i></a>
+        </div>
+        <div class="text-xs opacity-50">
+            &copy; 2025 พัฒนาโดย AI เพื่อการเรียนรู้ข้อบังคับฉบับปรับปรุง ๒๕๖๘
+        </div>
+    </footer>
+
+    <script>
+        function calculateStatus() {
+            const year = document.getElementById('year-select').value;
+            const gpax = parseFloat(document.getElementById('gpax-input').value);
+            const resBox = document.getElementById('result-box');
+            const resTitle = document.getElementById('result-title');
+            const resDesc = document.getElementById('result-desc');
+
+            if (isNaN(gpax) || gpax < 0 || gpax > 4) {
+                alert("กรุณากรอกเกรดเฉลี่ยให้ถูกต้อง (0.00 - 4.00)");
+                return;
+            }
+
+            resBox.classList.remove('hidden', 'bg-green-100', 'border-green-500', 'bg-red-100', 'border-red-500', 'bg-yellow-100', 'border-yellow-500');
+
+            if (year === '1-1') {
+                if (gpax < 1.00) {
+                    setStatus('พ้นสภาพนักศึกษา!', 'ตามข้อ ๓๙ (๕) ปี 1 เทอม 1 ห้ามต่ำกว่า 1.00', 'red');
+                } else if (gpax < 2.00) {
+                    setStatus('ภาวะวิกฤต', 'ตามข้อ ๓๘ (ข) คุณติดภาวะวิกฤตครั้งแรก ต้องรีบแก้ตัวเทอมหน้านะ!', 'yellow');
+                } else {
+                    setStatus('ภาวะปกติ', 'ยินดีด้วย! คุณอยู่ในเกณฑ์ปกติ ตั้งใจเรียนต่อไปนะ', 'green');
+                }
+            } else if (year === '1-2') {
+                if (gpax < 1.25) {
+                    setStatus('พ้นสภาพนักศึกษา!', 'ตามข้อ ๓๙ (๖) จบปี 1 GPAX ห้ามต่ำกว่า 1.25', 'red');
+                } else if (gpax < 2.00) {
+                    setStatus('ภาวะรอพินิจ ครั้งที่ 1', 'ตามข้อ ๓๘ (ค-๑) เกรดต่ำกว่า 2.00 หลังจบปี 1 จะเข้าสู่ระบบรอพินิจ', 'yellow');
+                } else {
+                    setStatus('ภาวะปกติ', 'สถานะปกติดีเยี่ยม รักษาระดับไว้ให้ถึง 2.00 ตลอดนะ', 'green');
+                }
+            } else {
+                if (gpax < 1.50) {
+                    setStatus('พ้นสภาพนักศึกษา!', 'ตามข้อ ๓๙ (๗) เกรดเฉลี่ยสะสมห้ามต่ำกว่า 1.50 สำหรับรุ่นพี่', 'red');
+                } else if (gpax < 2.00) {
+                    setStatus('ภาวะรอพินิจ', 'ระวัง! คุณเหลือโอกาสรอพินิจได้ไม่เกิน 3 ครั้งติดต่อกัน (ข้อ ๓๙-๑๐)', 'yellow');
+                } else {
+                    setStatus('ภาวะปกติ', 'ยินดีด้วย คุณอยู่ในสถานะปกติ พร้อมไปคว้าเกียรตินิยม!', 'green');
+                }
+            }
+        }
+
+        function setStatus(title, desc, color) {
+            const resBox = document.getElementById('result-box');
+            const resTitle = document.getElementById('result-title');
+            const resDesc = document.getElementById('result-desc');
+            
+            resBox.classList.remove('hidden');
+            resTitle.innerText = title;
+            resDesc.innerText = desc;
+
+            if (color === 'red') {
+                resBox.classList.add('bg-red-100', 'border-red-500', 'text-red-800');
+            } else if (color === 'yellow') {
+                resBox.classList.add('bg-yellow-100', 'border-yellow-500', 'text-yellow-800');
+            } else {
+                resBox.classList.add('bg-green-100', 'border-green-500', 'text-green-800');
+            }
+        }
+    </script>
+</body>
+</html>
